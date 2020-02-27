@@ -745,6 +745,7 @@ td, th {
 
 .container.fullwidth {
   width: 100%;
+  
 }
 
 .container.no-padding {
@@ -2324,6 +2325,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   cursor: pointer;
   margin-bottom: 30px;
+  display: block;
 }
 
 .portfolio-area .filters-content .item img {

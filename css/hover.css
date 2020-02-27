@@ -1,0 +1,41 @@
+      .hovertxt{
+      position:relative;
+      padding:0;
+      widows: 100%;;
+      display:block;
+      cursor:pointer;
+      overflow:hidden;
+      }
+      .hovercontent {
+      
+      opacity:0;
+      font-size:20px;
+      overflow:auto;
+      position:absolute;
+      top:0;
+      left:0;
+      color:#ffffff;
+      background-color:#008CBA;
+      width:100%;
+      height:80%;
+      -webkit-transition: all 400ms ease-out;
+      -moz-transition: all 400ms ease-out;
+      -o-transition: all 400ms ease-out;
+      -ms-transition: all 400ms ease-out;
+      transition: all 400ms ease-out;
+      text-align:center;
+      }
+      .hovertxt .hovercontent:hover { opacity:.9; }      
+      .hovertxt .hovercontent .text {
+      height:0;
+      opacity:1;
+      transition-delay: 0s;
+      transition-duration: 0.4s;
+      
+      }
+      .hovertxt .hovercontent:hover .text {
+      opacity:1;
+      transform: translate(0px);
+      -webkit-transform: translate(0px);
+      
+      }
