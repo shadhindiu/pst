@@ -6,18 +6,19 @@
       cursor:pointer;
       overflow:hidden;
       }
-      .hovercontent {
-      
+      .hovercontent {      
       opacity:0;
-      font-size:20px;
+      font-size:17px;
       overflow:auto;
       position:absolute;
-      top:0;
-      left:0;
+      top:2%;
+      left:2%;
+      right: 0;
+      bottom: 2%;
       color:#ffffff;
       background-color:#008CBA;
-      width:100%;
-      height:80%;
+      width:96%;
+      height:72%;
       -webkit-transition: all 400ms ease-out;
       -moz-transition: all 400ms ease-out;
       -o-transition: all 400ms ease-out;
@@ -31,7 +32,7 @@
       opacity:1;
       transition-delay: 0s;
       transition-duration: 0.4s;
-      
+      margin: 4%;
       }
       .hovertxt .hovercontent:hover .text {
       opacity:1;
