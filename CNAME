@@ -1,0 +1,4 @@
+
+    type = CNAME
+    name = www
+    value = shadhindiu.github.io.
